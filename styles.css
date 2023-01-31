@@ -1,0 +1,161 @@
+body {
+  background-color: #f8f8f8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Head section */
+
+header {
+  align-items: center;
+  background-color: #929292;
+  color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+header ul {
+  font-size: 16px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: block;
+  margin: 0 10%;
+}
+
+section {
+  border: 2px solid #929292;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+div {
+  display: block;
+}
+
+/* Color section */
+
+.color-box {
+  color: #fff;
+  display: inline-block;
+  margin: 20px auto;
+  min-height: 100px;
+  width: 32%;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.light-pink {
+  background-color: #ffd6ff;
+}
+
+.pink {
+  background-color: #e7c6ff;
+}
+
+.plum {
+  background-color: #c8b6ff;
+}
+
+.slate-blue {
+  background-color: #b8c0ff;
+}
+
+.light-blue {
+  background-color: #bbd0ff;
+}
+
+/* Fonts section */
+.font-box {
+  display: inline-block;
+  min-height: 100px;
+  width: 45%;
+}
+
+.font-box h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.font-box p {
+  display: block;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.pt-sans {
+  font-family: "PT Sans", sans-serif;
+}
+
+.source-sans {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Text Styles section */
+
+.text-box h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.text-box h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.text-box p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.text-box ul {
+  display: block;
+  list-style-type: disc;
+}
+
+.text-box li {
+  display: list-item;
+}
