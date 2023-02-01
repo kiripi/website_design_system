@@ -1,9 +1,39 @@
+/* Universal Styles */
 body {
-  background-color: #f8f8f8;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  line-height: 1.3em;
+  font-family: "Roboto Mono", monospace;
+  background-color: white;
+  color: black;
+  font-weight: normal;
   margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  padding: 0.25rem;
+  margin: 10px 20px;
+}
+
+h3 {
+  margin: 10px 20px;
+}
+
+p {
+  margin: 8px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: block;
+  margin: 0 10%;
 }
 
 /* Head section */
@@ -14,6 +44,7 @@ header {
   color: #f8f8f8;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   width: 100%;
 }
 
@@ -43,28 +74,51 @@ a:hover {
   text-decoration: underline;
 }
 
-main {
-  display: block;
-  margin: 0 10%;
-}
+/* Box Styles */
 
 section {
   border: 2px solid #929292;
-  padding: 10px;
-  margin: 10px auto;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 1.5rem 0;
+  text-align: left;
 }
 
-div {
-  display: block;
+.container-head {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 0;
+}
+
+.container-head p {
+  margin: 0 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 20px 0.75rem;
 }
 
 /* Color section */
 
 .color-box {
+  align-items: center;
+  border: 1px solid #f1f1f1;
   color: #fff;
-  display: inline-block;
-  margin: 20px auto;
-  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: 1.25rem;
+  justify-content: center;
+  margin: 1rem 0.75rem;
+  min-width: 125px;
+  max-width: 250px;
+  padding: 1.25rem;
   width: 32%;
   text-align: center;
   text-shadow: 1px 1px black;
@@ -92,13 +146,22 @@ div {
 
 /* Fonts section */
 .font-box {
-  display: inline-block;
-  min-height: 100px;
-  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0.75rem;
+  min-width: 300px;
+  min-height: 150px;
+  max-width: 450px;
+  max-height: 300px;
+  justify-content: center;
+  align-items: left;
+  font-weight: normal;
+  font-size: 1.25rem;
+  flex-grow: 1;
 }
 
 .font-box h3 {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: normal;
   text-decoration: underline;
 }
@@ -137,19 +200,38 @@ div {
 
 /* Text Styles section */
 
+.text-box {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0.75rem;
+  min-width: 300px;
+  min-height: 150px;
+  max-width: 450px;
+  max-height: 600px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-weight: normal;
+  font-size: 1.25rem;
+  flex-grow: 1;
+}
+
 .text-box h1 {
   font-weight: 700;
   font-size: 32px;
+  text-align: center;
 }
 
 .text-box h2 {
   font-weight: 500;
   font-size: 18px;
+  text-align: center;
 }
 
 .text-box p {
   font-weight: 400;
   font-size: 14px;
+  text-align: center;
 }
 
 .text-box ul {
